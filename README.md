@@ -1,5 +1,8 @@
 # Fossicker
 
+[![Gem Version][gem-badge]][gem]
+[![Build status][build-badge]][build]
+
 `fossick` is a `fetch`-like version of Ruby's `dig`. It supports defaults and will raise an exception if 
 it finds a missing key or index (unless you supply a default).  
 
@@ -94,3 +97,7 @@ adhere to the [Contributor Covenant](http://contributor-covenant.org) code of co
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+[gem-badge]:        https://badge.fury.io/rb/fossicker.svg
+[gem]:              http://badge.fury.io/rb/fossicker
+[build-badge]:      https://travis-ci.org/johncarney/fossicker.svg?branch=master
+[build]:            https://travis-ci.org/johncarney/fossicker
