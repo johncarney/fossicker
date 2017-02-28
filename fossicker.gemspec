@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["John Carney"]
   spec.email         = ["john@carney.id.au"]
 
-  spec.summary       = %q{A fetch-like version of Ruby's dig}
+  spec.summary       = %q{Dig, but with defaults}
   spec.description   = %q{A fetch-like version of Ruby's dig.}
   spec.homepage      = "http://www.github.com/johncarney/fossicker"
   spec.license       = "MIT"
@@ -20,6 +20,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.required_ruby_version = ">= 2.2.0"
 
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake",    "~> 10.0"
